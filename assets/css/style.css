@@ -7,6 +7,7 @@ body {
     margin: 0;
     padding: 0;
     background-color:rgb(146, 237, 237); 
+    /*changing background to fit with theme*/
 
 }
 h1 {
@@ -17,9 +18,10 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: blue;
+    background-color: rgba(7, 20, 69, 0.623);
     height: 65px;
     padding: 0 10px;
+    /*I don't want these to move in the scroll*/
 }
 nav {
     /* display: flex; */
@@ -34,6 +36,7 @@ nav {
     display: inline; 
     padding: 8px 15px;
     float: right;
+    /*moving the links to the right so they are out of the way of the header*/
 
 }
 .navlinks li#left {
@@ -62,6 +65,7 @@ main {
     justify-content: center; 
     flex-direction: column;
     text-align: center;
+    /*this portion centers the main content*/
 
 
 
@@ -81,6 +85,7 @@ section {
 }
 section h2 {
     font-size: 40px;
+    /*added this section to adjust font after the other "h" tags*/
 
 }
 
@@ -91,10 +96,12 @@ section h2 {
 #mainwork img,#work2 img{
     width: 400px;
     transition: 1s;
+    /* smoothing out transition for main photo*/
 }
 #mainwork img:hover,#work2 img:hover {
 width:500px;
 transition:1s;
+/*eliminates "clunky" transition*/ 
 }
 
 @media all and (max-width:1000px) {
